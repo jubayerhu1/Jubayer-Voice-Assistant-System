@@ -1,0 +1,6 @@
+SpeechRecognition
+pyobjc  # required for pyttsx3 on macOS
+pyttsx3
+wikipedia
+google-generativeai
+install pyaudio
