@@ -84,7 +84,7 @@ def greeting():
 
 ## Generative Ai added 
 def gemini_model_response(user_input):
-    GEMINI_API_KEY = "AIzaSyBK6tMY5xkMS0ioutVRwlPxkoOsISISIhQ"
+    GEMINI_API_KEY = "enter you key"
     genai.configure(api_key=GEMINI_API_KEY)
 
 # 2. Fixed spelling (GenerativeModel) and model version (1.5-flash)
