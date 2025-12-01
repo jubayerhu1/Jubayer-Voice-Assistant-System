@@ -34,7 +34,7 @@ def speak(text):
     Args: 
         test
         returns: voic """
-    engin = pyttsx3.init("nsss")
+    engin = pyttsx3.init()
     voices = engin.getProperty("voices")
     engin.setProperty('rate',170)
     engin.setProperty('voice',voices[0])  
@@ -84,7 +84,7 @@ def greeting():
 
 ## Generative Ai added 
 def gemini_model_response(user_input):
-    GEMINI_API_KEY = "enter your api key"
+    GEMINI_API_KEY = "AIzaSyBK6tMY5xkMS0ioutVRwlPxkoOsISISIhQ"
     genai.configure(api_key=GEMINI_API_KEY)
 
 # 2. Fixed spelling (GenerativeModel) and model version (1.5-flash)
